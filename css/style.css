@@ -332,6 +332,26 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
+  margin-bottom: 16px;
+}
+
+.team-contact-list {
+  display: flex;
+  justify-content: center;
+}
+
+.team-contact-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.team-contact-link {
+  width: 44px;
+  height: 44px;
+  background-color: yellowgreen 50%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* ----------------------ПОДВАЛ-FOOTER----------------- */
