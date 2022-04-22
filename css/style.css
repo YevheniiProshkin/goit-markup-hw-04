@@ -414,6 +414,47 @@ img {
   fill: #ffffff;
 }
 
+/* ----------------------КЛИЕНТЫ-CLIENT----------------- */
+
+.client {
+  padding: 94px 0;
+}
+
+.client-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin-bottom: 50px;
+}
+
+.client-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.client-item {
+  padding: 16px 32px;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.client-logo {
+  fill: #afb1b8;
+}
+
+.client-item:hover {
+  fill: #2196f3;
+  border: 1px solid #2196f3;
+}
+
+.client-item:hover .client-logo {
+  fill: #2196f3;
+}
+
 /* ----------------------ПОДВАЛ-FOOTER----------------- */
 
 .footer {
@@ -499,8 +540,6 @@ img {
 }
 
 .footer-text {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
